@@ -1,0 +1,182 @@
+*{
+    margin:0;
+        padding:0;
+    webkit-border-radius:20px;
+    ms-border-radius:20px;
+    moz-border-radius:20px; /* para mostrar en diferentes navegadores ?*/
+    o-border-radius:20px;
+         }
+         header {
+            background-image:url(IMAGENES/all.jpg);
+            padding:110px;
+            padding-top:-5px;
+            }
+    
+    body
+    {
+        background-image:url(IMAGENES/jua.jpg);
+        font-size:62.5%;
+    
+    }
+    h1
+    {
+    color:#e7e5e5;
+    text-align:center;
+    font:bold 5.4em Edwardian Script ITC;
+    padding-top:7%;
+    padding-bottom:0px;
+    }
+    h2
+{
+color:#EEEEEE;
+font:bold 3.0em Edwardian Script ITC;
+}
+p
+{ 
+color:#FFFFFF;
+font:bold 1.5em Arial, Helvetica, sans-serif;
+padding-bottom:5%;
+}
+    h3
+    {
+    
+    color:#ffffff;
+    height:30%;
+    font:bold 2.8em Edwardian Script ITC;
+    text-align: left;
+    }
+    h4{
+        color:#ffffff;
+        height:30%;
+        font:bold 2.4em Edwardian Script ITC;
+        text-align: center;
+    }
+    nav
+    {
+    width:80%;
+    height:3%;
+    margin-top:1.5%;
+    margin-left:30%;
+    }
+    blockquote
+    {
+    font:bold 2.8em Edwardian Script ITC;
+    color:#ffffff;
+    text-align:center;
+    margin:20px auto;
+    padding:10px;
+    border:4px;
+    display:inline;
+    margin-left:15.5px;
+        
+        
+    }
+    section
+{
+	text-align:center;
+	font:bold 1.1em Arial, Helvetica, sans-serif;
+	margin-top:-10px;
+	width:100%;
+	float:right;
+	margin-top:3%;
+}
+
+
+    footer 
+    {
+        width:100%;
+        height:20%;
+        clear:both;
+        margin-top:50px;
+        padding:-50% 0%; /*etama�o de el footer*/
+    }
+    
+       label{
+        font:bold 1.8em Edwardian Script ITC;
+        color:#fcf5f5;
+      
+       }
+       label1
+       {
+        font:bold 2.0em Edwardian Script ITC;
+        color:#beb533;
+       }
+       #enviar
+{
+width:99%;
+color:#AA0000;
+box-shadow: #ffffff 3px 3px 3px;
+border:4px;
+text-align:center;
+background:-webkit-linear-gradient(top, #FFCC66 ,#BBBBBB);
+font:bold 2.9em Edwardian Script ITC;
+}
+.wrap {
+	margin: auto;
+    max-width: 900px;
+	width: 90%;
+}
+
+.principal {
+	
+	color: rgb(242, 242, 247);
+    width: 100%;
+}
+h6
+{
+color:#EEEEEE;
+padding:5px ;
+font:bold 5.0em Edwardian Script ITC;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+    padding: 10px;
+    color: rgb(8, 8, 8);
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #0f0e0e;
+	color: rgb(46, 139, 192);
+}
+
+.principal .formulario .boton {
+    background: none;
+    width:69%;
+    font:bold 4.0em Edwardian Script ITC;
+	border: 3px solid #b16e09;
+	color: #fff;
+	display: inline-block;
+	
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+    border-bottom: 1px solid #B6B6B6;
+    font:bold 1.8em Arial, Helvetica, sans-serif;
+}
+
+.tareas .lista li a {
+	color: #f7f2f2;
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
